@@ -1,0 +1,7 @@
+PLAYERDRIVER_OPTION (Toscanangle build_Toscanangle ON)
+PLAYERDRIVER_ADD_DRIVER (Toscanangle build_Toscanangle SOURCES Toscanangle.cc)
+#cmake_minimum_required(VERSION 2.8)
+#project(Toscanangle)
+#INCLUDE_DIRECTORIES(/usr/local/include/player-3.1/)
+#add_executable(Toscanangle Toscanangle.cc)
+#target_link_libraries(Toscanangle playerc++ playercore playercommon  playertcp  playerdrivers)
